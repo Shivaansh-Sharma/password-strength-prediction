@@ -88,6 +88,8 @@ The repository includes:
 
 ## Research Paper
 
+Research project focused on password strength classification using machine learning and neural architectures.
+
 The accompanying manuscript is currently under review at SN Computer Science (Springer).
 
 The paper is included in the `paper/` directory for academic reference and reproducibility purposes.

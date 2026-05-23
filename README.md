@@ -1,28 +1,28 @@
 # Password Strength Prediction using Machine Learning and Deep Learning
 
-This repository contains research work on password strength prediction and classification using machine learning and deep learning techniques. The project investigates the effectiveness of neural architectures for estimating password strength and comparing performance across multiple models using standard evaluation metrics.
+This repository contains research work focused on password strength prediction and classification using machine learning and deep learning techniques. The project investigates the effectiveness of neural architectures for modeling password complexity patterns and compares their performance against traditional machine learning approaches using multiple evaluation metrics.
 
 ## Overview
 
-Weak passwords remain one of the most common cybersecurity vulnerabilities. Traditional rule-based password evaluation systems often fail to capture semantic and structural patterns present in real-world passwords.
+Weak and predictable passwords continue to be one of the most significant cybersecurity vulnerabilities. Conventional rule-based password evaluators often fail to capture semantic, structural, and sequential patterns present in real-world passwords.
 
-This project explores data-driven approaches for password strength classification using machine learning and deep learning models trained on large-scale password datasets.
+This project explores data-driven approaches for password strength assessment using machine learning and deep learning models trained on large-scale password datasets. The study evaluates the capability of neural architectures to improve password classification performance and better identify complex password characteristics.
 
 ## Objectives
 
-- Develop models for password strength prediction
-- Compare traditional ML and deep learning approaches
+- Develop machine learning and deep learning models for password strength prediction
+- Compare the effectiveness of traditional ML and neural architectures
 - Evaluate model performance using multiple classification metrics
 - Analyze ROC performance and confusion matrices
-- Investigate practical applications in cybersecurity systems
+- Investigate practical cybersecurity applications of password strength estimation systems
 
-## Models Used
+## Models Implemented
 
-- Random Forest
+- Random Forest Classifier
 - LSTM Neural Network
 - Transformer-based Neural Network
 
-## Technologies
+## Technologies Used
 
 - Python
 - PyTorch
@@ -59,11 +59,11 @@ password-strength-prediction/
 
 ## Dataset
 
-This project utilizes large-scale password datasets for training and evaluation.
+The models were trained and evaluated using large-scale password datasets containing passwords with varying complexity levels and structural characteristics.
 
-Due to size and licensing considerations, the full dataset is not included in this repository.
+Due to dataset size and licensing considerations, the complete dataset is not included in this repository.
 
-## Results
+## Evaluation Metrics
 
 The models were evaluated using:
 
@@ -74,16 +74,23 @@ The models were evaluated using:
 - ROC-AUC
 - Confusion Matrix Analysis
 
+## Key Results
+
+- Deep learning models demonstrated improved classification capability compared to traditional machine learning approaches.
+- The Transformer-based architecture achieved the strongest overall predictive performance across evaluation metrics.
+- ROC curve analysis showed superior discriminative performance for neural architectures.
+- Confusion matrix analysis indicated improved handling of complex password structures by deep learning models.
+
 The repository includes:
-- ROC curves
+- ROC curve visualizations
 - Confusion matrices
-- Comparative model performance visualizations
+- Comparative performance figures
 
 ## Research Paper
 
 The accompanying manuscript is currently under review at SN Computer Science (Springer).
 
-The paper is included in the `paper/` directory for academic and reproducibility purposes.
+The paper is included in the `paper/` directory for academic reference and reproducibility purposes.
 
 ## Reproducibility
 
@@ -93,7 +100,7 @@ The paper is included in the `paper/` directory for academic and reproducibility
 pip install -r requirements.txt
 ```
 
-### Run Notebook
+### Run the Notebook
 
 ```bash
 jupyter notebook
@@ -110,7 +117,8 @@ notebooks/password_strength_prediction.ipynb
 - Integration of advanced transformer architectures
 - Adversarial robustness evaluation
 - Real-time password assessment systems
-- Explainable AI for password strength interpretation
+- Explainable AI techniques for password strength interpretation
+- Hybrid neural architectures for improved classification performance
 
 ## License
 

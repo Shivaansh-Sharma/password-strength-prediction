@@ -1,4 +1,4 @@
-# Password Strength Prediction using Deep Learning
+# Password Strength Prediction using Machine Learning and Deep Learning
 
 This repository contains research work on password strength prediction and classification using machine learning and deep learning techniques. The project investigates the effectiveness of neural architectures for estimating password strength and comparing performance across multiple models using standard evaluation metrics.
 
@@ -12,7 +12,7 @@ This project explores data-driven approaches for password strength classificatio
 
 - Develop models for password strength prediction
 - Compare traditional ML and deep learning approaches
-- Evaluate robustness using multiple classification metrics
+- Evaluate model performance using multiple classification metrics
 - Analyze ROC performance and confusion matrices
 - Investigate practical applications in cybersecurity systems
 
@@ -20,7 +20,7 @@ This project explores data-driven approaches for password strength classificatio
 
 - Random Forest
 - LSTM Neural Network
-- Transformer-based Model
+- Transformer-based Neural Network
 
 ## Technologies
 
